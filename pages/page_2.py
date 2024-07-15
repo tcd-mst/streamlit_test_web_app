@@ -49,4 +49,4 @@ with st.form(key="profile_form"):
     if submit_btn:
         st.text(f"ようこそ！{name}さん！{address}へ書類を送ります。")
         st.text(f"年齢層: {age_category}")
-        st.text(f"趣味: {",".join(hobby)}")
+        st.text(f"趣味: {','.join(hobby)}")
